@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +10,8 @@ body {
 
 .container {
     display: flex;
-    gap: 10px;
+    gap: 0.6vw;
+    margin: auto;
 }
 .container1 {
     display: flex;
@@ -19,6 +19,9 @@ body {
     justify-content: center;
     align-items: center;
     font-size:large;
+    margin: auto;
+    text-align: center;
+
 }
 
 
@@ -31,4 +34,12 @@ img {
 #imagenGrande {
     width: 16vw;
     height: 16vw;
+}
+
+
+@media (max-width: 900px) {
+    body {
+        width: fit-content;
+        height: fit-content;
+    }
 }
